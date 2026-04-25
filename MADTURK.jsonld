@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "MADTURK",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "735c89e05b587497c92fa6ebac3eef7731938fab60576b8b6e6fe6871f5afb5b"
+    },
+    "motivations": "I want to be a DRep because I strongly believe blockchain technology can create a fairer world where individuals have more freedom, ownership, and control over their future. Cardano stands out to me as an ecosystem built on strong principles, research, and long-term sustainability, and I want to actively contribute to its success through responsible governance. Personally, I value independence, transparency, and community collaboration, which aligns closely with Cardano’s vision of self-sovereignty and decentralization. Professionally, my background in IT systems administration has given me practical experience in problem-solving, infrastructure, security, and evaluating solutions with a long-term mindset. I understand the importance of reliability, efficiency, and making decisions that benefit both current users and future growth. By combining my personal values with my technical experience, I want to represent the community fairly, support meaningful innovation, and help Cardano.",
+    "objectives": "My objective as a DRep within the Cardano ecosystem is to support the growth of a strong, transparent, and community-driven blockchain that empowers people through freedom, decentralization, and self-sovereignty. I want to help guide governance decisions that strengthen innovation, security, and long-term sustainability while ensuring every participant has a voice. I believe Cardano has the potential to become the leading ecosystem for financial independence, digital ownership, and fair access to opportunity worldwide. Through thoughtful voting, I aim to contribute to building a future where individuals have greater control over their assets, identity, and economic destiny.",
+    "paymentAddress": "addr1qx3uc98v3q2gzcfkv69vsg03dqcvrkws47f94j3zjds3t4zy0aa0uyk85mwwxhrvsp82d8nxuf3wazyvjs6samwl8ngsnuqkcx",
+    "qualifications": "I bring a combination of technical knowledge, practical governance mindset, and strong commitment to decentralization. My professional background in IT systems administration provides experience in security, infrastructure, risk assessment, and long-term planning. I also have a strong interest in blockchain technology, financial independence, and community-led decision making. These skills help me evaluate proposals responsibly and represent the interests of the Cardano community fairly."
+  }
+}
